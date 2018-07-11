@@ -51,6 +51,7 @@ public class UserBl {
 		UserPojo user = userService.findById(userId);
 //	    		.orElseThrow(() -> new Exception("Student"));
 
+		//Object userDetails;
 		user.setId(userDetails.getId());
 		user.setLastName(userDetails.getLastName());
 		user.setFirstName(userDetails.getLastName());
