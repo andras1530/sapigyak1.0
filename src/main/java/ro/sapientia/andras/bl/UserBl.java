@@ -42,7 +42,7 @@ public class UserBl {
 		
 //	    		.orElseThrow(() -> new Exception("Student"));
 	}
-	
+	/*
 	
 	//PUTbyID
 	public UserPojo updateUser(Integer studentId,
@@ -71,5 +71,5 @@ public class UserBl {
 		userService.deleteUser(user);
 
 	    return ResponseEntity.ok().build();
-	}
+	}*/
 }

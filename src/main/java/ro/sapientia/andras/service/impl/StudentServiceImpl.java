@@ -1,12 +1,8 @@
 package ro.sapientia.andras.service.impl;
 
-import java.security.Timestamp;
-import java.sql.Date;
+import java.sql.Timestamp;
+import java.util.Date;
 import java.util.List;
-import java.util.Optional;
-
-import javax.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
@@ -108,6 +104,7 @@ public class StudentServiceImpl implements StudentService {
 		return studentsDao.findById(studentId)
 				.orElseThrow(() -> new ResourceNotFoundException("Student"));
 	}
+
 
 
 
